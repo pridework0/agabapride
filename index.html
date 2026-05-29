@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGABA Pride - Software Developer & Digital Product Builder</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loader" id="loader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">AGABA<span class="logo-accent">.</span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active" data-section="home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-section="about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#donate" class="nav-link" data-section="donate">Donate</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text fade-in-up">
+                    <h1 class="hero-name">AGABA Pride</h1>
+                    <p class="hero-title">Developer & Digital Product Builder</p>
+                    <p class="hero-description">
+                        Passionate about crafting modern digital experiences and building intelligent systems. 
+                        I transform ideas into elegant, functional solutions that make an impact.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-arrow-right"></i> View Projects
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fas fa-envelope"></i> Contact Me
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image fade-in">
+                <div class="image-frame">
+                    <div class="image-glow"></div>
+                    <div class="image-content">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="section-container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a passionate software developer from Gatsibo, Rwanda, dedicated to creating seamless digital experiences. 
+                        With expertise in full-stack development, UI/UX design, and emerging technologies, I bring ideas to life through clean code and thoughtful design.
+                    </p>
+                    <p>
+                        My journey in tech is driven by curiosity and a desire to solve real-world problems. 
+                        I'm particularly interested in AI, modern web technologies, and building products that users love.
+                    </p>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Projects</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">20+</div>
+                        <div class="stat-label">Skills</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">2+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Dedication</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="section-container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">E-Commerce Platform</h3>
+                        <p class="project-description">
+                            A full-stack e-commerce solution with real-time inventory, secure payments, and responsive design.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">React</span>
+                            <span class="tech-badge">Node.js</span>
+                            <span class="tech-badge">MongoDB</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="#" class="project-btn">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="#" class="project-btn">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AI Task Manager</h3>
+                        <p class="project-description">
+                            Intelligent task management system with AI-powered suggestions and smart scheduling.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">Python</span>
+                            <span class="tech-badge">TensorFlow</span>
+                            <span class="tech-badge">Flask</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="#" class="project-btn">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="#" class="project-btn">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Design System</h3>
+                        <p class="project-description">
+                            Comprehensive UI design system with reusable components and documentation.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">HTML/CSS</span>
+                            <span class="tech-badge">JavaScript</span>
+                            <span class="tech-badge">Figma</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="#" class="project-btn">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="#" class="project-btn">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Mobile Weather App</h3>
+                        <p class="project-description">
+                            Beautiful weather application with real-time data, forecasts, and location services.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">React Native</span>
+                            <span class="tech-badge">API Integration</span>
+                            <span class="tech-badge">Geolocation</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="#" class="project-btn">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="#" class="project-btn">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Analytics Dashboard</h3>
+                        <p class="project-description">
+                            Real-time analytics dashboard with data visualization and interactive charts.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">Vue.js</span>
+                            <span class="tech-badge">Chart.js</span>
+                            <span class="tech-badge">PostgreSQL</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="#" class="project-btn">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="#" class="project-btn">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-share-nodes"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Social Network</h3>
+                        <p class="project-description">
+                            Full-featured social platform with real-time messaging and user interactions.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">Next.js</span>
+                            <span class="tech-badge">Firebase</span>
+                            <span class="tech-badge">WebSocket</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="#" class="project-btn">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="#" class="project-btn">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="section-container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <i class="fas fa-laptop-code"></i> Frontend
+                    </h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span>React & Next.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>HTML5 & CSS3</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 98%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>JavaScript & TypeScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Tailwind CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 92%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <i class="fas fa-server"></i> Backend
+                    </h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span>Node.js & Express</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Python & Django</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>MongoDB & PostgreSQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 87%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>REST APIs & GraphQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 89%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <i class="fas fa-paint-brush"></i> UI/UX Design
+                    </h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span>Figma & Adobe XD</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 86%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Responsive Design</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 94%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>User Research</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Prototyping</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <i class="fas fa-brain"></i> AI & Python
+                    </h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span>Machine Learning</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 78%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>TensorFlow & PyTorch</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Data Analysis</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 82%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Natural Language Processing</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 76%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Donate Section -->
+    <section class="donate" id="donate">
+        <div class="section-container">
+            <h2 class="section-title">Support My Work</h2>
+            <div class="donate-content">
+                <p class="donate-message">
+                    If you appreciate my work and want to support my future projects and innovations, 
+                    consider making a donation. Your support helps me continue building amazing digital experiences.
+                </p>
+                <div class="donation-methods">
+                    <div class="donation-card">
+                        <div class="donation-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Mobile Money</h3>
+                        <p>MTN MoMo: 0783899478</p>
+                        <button class="btn btn-primary" onclick="copyToClipboard('0783899478')">
+                            <i class="fas fa-copy"></i> Copy Number
+                        </button>
+                    </div>
+                    <div class="donation-card">
+                        <div class="donation-icon">
+                            <i class="fab fa-paypal"></i>
+                        </div>
+                        <h3>PayPal</h3>
+                        <p>PayPal: agabapride0@gmail.com</p>
+                        <button class="btn btn-primary" onclick="copyToClipboard('agabapride0@gmail.com')">
+                            <i class="fas fa-copy"></i> Copy Email
+                        </button>
+                    </div>
+                    <div class="donation-card">
+                        <div class="donation-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Bank Transfer</h3>
+                        <p>Contact for bank details</p>
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Contact Me
+                        </a>
+                    </div>
+                </div>
+                <div class="appreciation-message">
+                    <p>🙏 Thank you for supporting my journey as a developer!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <a href="mailto:agabapride0@gmail.com">agabapride0@gmail.com</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <h3>WhatsApp</h3>
+                        <a href="https://wa.me/250783899478" target="_blank">0783899478</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Location</h3>
+                        <p>Gatsibo, Kiramuruzi, Rwanda</p>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input 
+                            type="text" 
+                            placeholder="Your Name" 
+                            required 
+                            class="form-input"
+                        >
+                    </div>
+                    <div class="form-group">
+                        <input 
+                            type="email" 
+                            placeholder="Your Email" 
+                            required 
+                            class="form-input"
+                        >
+                    </div>
+                    <div class="form-group">
+                        <textarea 
+                            placeholder="Your Message" 
+                            rows="5" 
+                            required 
+                            class="form-input"
+                        ></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <p>&copy; 2026 AGABA Pride. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" title="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
